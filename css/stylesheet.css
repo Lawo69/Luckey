@@ -92,3 +92,26 @@ body{
     background-color: #E7FFFE;
     border: 2px solid black;
 }
+
+@media screen and (max-width: 600px) {
+    #heading {
+        font-size: 24px;
+    }
+
+    #frame {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    #guess {
+        width: 50px;
+    }
+
+    #guessCheck {
+        margin-right: 5px;
+    }
+
+    #randomNumber {
+        font-size: 40px;
+    }
+}
