@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#heading{
+    color: black;
+    font-family: 'Bubblegum Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+#frame{
+    background-color: #FFF620;
+    width: 400px;
+    height: 450px;
+    border-radius: 33px;
+    border: 5px solid #D940FF;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+
+#hint{
+    padding-bottom: 25px;
+}
+
+#guess{
+    padding: 10px;
+    width: 75px;
+    border-radius: 12px;
+    background-color: #E7FFFE;
+    border: 2px solid black;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#guessCheck{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #A0FFAA;
+    border: 2px solid black;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#guessCheck:hover{
+    background-color: #85fc91;
+}
+
+#randomNumber{
+    color: #D940FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 85px;
+    padding: 15px;
+}
+
+#result{
+    padding-bottom: 15px;
+}
+
+#bar1{
+    padding-bottom: 15px;
+}
+
+#bar {
+    margin: auto;
+    padding: 10px;
+    width: 75%;
+    border-radius: 12px;
+    background-color: #E7FFFE;
+    border: 2px solid black;
+}
