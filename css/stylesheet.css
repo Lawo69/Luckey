@@ -103,14 +103,6 @@ body{
         max-width: 90%;
     }
 
-    #guess {
-        width: 50px;
-    }
-
-    #guessCheck {
-        margin-right: 5px;
-    }
-
     #randomNumber {
         font-size: 40px;
     }
