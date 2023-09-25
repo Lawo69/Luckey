@@ -16,7 +16,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #85fc91;
+    background: linear-gradient(135deg, #2dc43c,  #59ff69);
 }
 
 #heading{
